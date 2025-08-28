@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Mahwah's iPad Destruction Video Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.3em;
+        }
+        header p {
+            font-size: 1.1em;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #ff6347;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin-bottom: 20px;
+        }
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .video-description {
+            margin-top: 15px;
+            font-size: 1em;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-top: 5px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e5533d;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dr. Mahwah's iPad Destruction Video Gallery</h1>
+        <p>Witness the Power of Behavioral Correction Through Device Demolition</p>
+    </header>
+
+    <section id="video">
+        <h2>Featured iPad Destruction</h2>
+        <div class="video-container">
+            <!-- Replace 'path/to/your/video.mp4' with your actual video file or URL -->
+            <video controls>
+                <source src="path/to/your/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-description">
+            <p>Watch Dr. Mahwah in action as he delivers a powerful lesson through the therapeutic destruction of an iPad. This video showcases our signature smashing technique, designed to correct bad behavior and restore household harmony. Ready to book your own session? Contact us below!</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Book Your Session</h2>
+        <p>Inspired by the video? Schedule your own iPad destruction session or inquire about our services.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dr. Mahwah's iPad Destruction Clinic. All rights reserved. (Note: This is a satirical website created for entertainment purposes.)</p>
+    </footer>
+</body>
+</html>
